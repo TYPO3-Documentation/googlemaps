@@ -13,6 +13,8 @@ import urllib2
 from xml.dom import minidom
 
 from docutils import nodes, utils
+from docutils.parsers.rst import directives
+
 try:
     from sphinx.util.compat import Directive
 except ImportError:
