@@ -1,6 +1,8 @@
 googlemaps extension README
 ============================
 
+**See CHANGELOG.rst**
+
 This is a sphinx extension for embedding maps.
 
 This extension enable you to embed maps using `Google Maps`_ .
@@ -30,8 +32,8 @@ Install
 Configure Sphinx
 ----------------
 
-To enable this extension, add ``sphinxcontrib.googlemaps`` module to extensions 
-option at :file:`conf.py`. 
+To enable this extension, add ``sphinxcontrib.googlemaps`` module to extensions
+option at :file:`conf.py`.
 
 .. code-block:: python
 
