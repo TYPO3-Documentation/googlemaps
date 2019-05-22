@@ -18,8 +18,6 @@ try:
 except ImportError:
     from docutils.parsers.rst import Directive
 
-from sphinx.util.compat import Directive
-
 
 def spec_float(argument):
     """
